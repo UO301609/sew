@@ -1,0 +1,20 @@
+/* datos personales: Hugo Suárez Palicio UO301609 */
+/* Estilos generales del proyecto MotoGP-Desktop */
+
+/*Especifidad = 001*/
+body { font-family: Arial, Tahoma, sans-serif;}
+
+/*COLORES: FOREGROUND -> 1AEF1A BACKGROUND -> 09323B */
+
+/*Especifidad = 001*/
+/*COLOR = FFFFFF*/
+/*BACKGROUND = 13599A*/
+body { color: #FFFFFF ; background-color:  #13599A;}
+
+/*Especifidad = 001*/
+/*BACKGROUND = 0CB00C*/
+header { background-color: #0CB00C;}
+
+/*Especifidad = 002*/
+/*COLOR = 000000*/
+h1 a, nav a { color: #000000;}
