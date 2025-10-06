@@ -15,12 +15,13 @@ body { color: #FFFFFF ; background-color:  #13599A;}
 /*BACKGROUND = 0CB00C*/
 header { background-color: #0CB00C;}
 
+/*Especifidad = 001*/
+/*COLOR = FFFFFF*/
+a { color: #FFFFFF;}
+
 /*Especifidad = 002*/
 /*COLOR = 000000*/
 h1 a, nav a { color: #000000;}
 
-/*Especifidad = 001*/
-/*COLOR = FFFFFF*/
-a { color: #FFFFFF;}
 
 
