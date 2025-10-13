@@ -1,0 +1,43 @@
+/* Datos personales: Hugo Suárez Palicio UO301609 */
+/* Posicionamientos generales del proyecto MotoGP-Desktop */
+
+/* Especificidad = 001 */
+header{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Especificidad = 001 */
+nav{
+    display: flex;
+}
+
+/* Especificidad = 002 */
+nav a{
+    display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+
+    /* Especificidad = 001
+    Especificidad = 001
+    Especificidad = 001
+    Especificidad = 002 */
+    header, h1, nav, nav a{
+        flex-direction: column;
+    }
+
+    /*Especificidad = 002*/
+    body > p{
+        display: none;
+    }
+
+    /*Especificidad = 001
+    Especificidad = 001 */
+    Video, audio { 
+        width:80%; 
+        height:auto; 
+    } 
+
+}
