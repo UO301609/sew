@@ -33,8 +33,7 @@ header a {
 /*Especifidad = 011*/
 /*COLOR = #FFFFFF*/
 a.active{
-    color: #FFFFFF;
-	/*Hereda background-color de header #13599A*/
+    font-size: x-large
 }
 
 /*Especificidad = 002*/
