@@ -18,6 +18,18 @@ nav a{
     display: flex;
 }
 
+section a {
+    display: flex;
+}
+
+/*Especificidad = 001*/
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-width: 320px) and (max-width: 799px) {
 
     /* Especificidad = 001
@@ -32,12 +44,23 @@ nav a{
     body > p{
         display: none;
     }
-
-    /*Especificidad = 001
+	
+	/*Especificidad = 001 */
+	audio {
+		width:50%; 	
+	}
+	
+	/*Especificidad = 001
     Especificidad = 001 */
-    Video, audio { 
+    Video, img { 
         width:80%; 
         height:auto; 
     } 
+
+    /*Especificidad = 003*/
+    article h2 + img {
+        width: 80%;
+        height: auto;
+    }
 
 }

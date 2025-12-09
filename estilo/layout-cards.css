@@ -1,0 +1,25 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5em;
+}
+
+main h2, main p{
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+
+    main{
+        grid-template-columns: repeat(2,1fr);
+        gap: 1em;
+        justify-items: center;
+    }
+
+    main h2, main p{
+        grid-column: span 2;
+    }
+
+}

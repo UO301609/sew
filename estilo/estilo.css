@@ -31,10 +31,8 @@ header a {
 }
 
 /*Especifidad = 011*/
-/*COLOR = #FFFFFF*/
 a.active{
     text-decoration-line: underline;
-    text-decoration-color: #FFFFFF;
 }
 
 /*Especificidad = 002*/
