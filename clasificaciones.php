@@ -53,7 +53,7 @@ class Clasificaciones {
 ?>
 
 <body>
-    <!--BLQOUE HEADER-->
+
     <header>
         <h1>
             <a href="index.html" title="Inicio">MotoGP Desktop</a>
@@ -71,9 +71,9 @@ class Clasificaciones {
     <p>Estas en:
         <a href="index.html" title="Inicio">Inicio</a> >> <strong>Clasificaciones</strong>
     </p>
-    <!--BLOQUE MAIN-->
+    
     <main>
-        <!--BLOQUE SECTION-->
+        
         <section>
             <h2>Clasificaciones de MotoGP-Desktop</h2>
             

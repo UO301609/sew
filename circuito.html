@@ -2,28 +2,20 @@
 
 <html lang="es">
 <head>
-    <!-- Datos que describen el documento -->
+    
     <meta charset="UTF-8" />
     <title>MotoGP-Circuito</title>
     <meta name="author" content="Hugo Suárez Palicio" />
     <meta name="description" content="Información sobre el circuito de la carrera" />
     <meta name="keywords" content="circuito,MOTOGP" />
-    <meta name="viewport" content="width=device-width, inicial-sacle=1.0" />
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/favicon.ico" />
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/es_ALL/common.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/es_ALL/util.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/es_ALL/map.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/es_ALL/marker.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/es_ALL/log.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/es_ALL/onion.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/63/1b/intl/es_ALL/controls.js"></script>
 </head>
 
 <body>
-    <!-- Datos con el contenidos que aparece en el navegador -->
-    <!--BLQOUE HEADER-->
+    
     <header>
         <h1>
             <a href="index.html" title="Inicio">MotoGP Desktop</a>
@@ -41,12 +33,17 @@
     <p>Estas en:
         <a href="index.html" title="Inicio">Inicio</a> >> <strong>Circuito</strong>
     </p>
-    <!--BLOQUE MAIN-->
+    
     <main>
         <h1>Brno Automotodrom</h1>
         <p>Introduce el documento infoCircuito.html: <input type="file"/></p>
         <p>Introduce el documento altimetria.svg: <input type="file"/></p>
+        <p>Introduce el documento circuito.kml: <input type="file"/></p>
+        <div id="mapa"></div>
     </main>
     <script src="js/circuito.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDof-f25azED-oRxxDW4_xoLTdlCk_9Tb0&callback=initMap">
+    </script>
+    
 </body>
 </html>

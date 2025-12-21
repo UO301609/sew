@@ -7,7 +7,7 @@
     <meta name="author" content="Hugo Suárez Palicio" />
     <meta name="description" content="Cronómetro" />
     <meta name="keywords" content="cronómetro,MOTOGP" />
-    <meta name="viewport" content="width=device-width, inicial-sacle=1.0" />
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/favicon.ico" />
@@ -15,39 +15,9 @@
 
 <?php
 
+include "cronometroClase.php";
 session_start();
 
-class Cronometro {
-
-    private $tiempo;
-    private $inicio;
-
-    public function __construct() {
-        $this->tiempo = 0;
-    }
-
-    public function arrancar() {
-        $this->inicio = microtime(true);
-    }
-
-    public function parar() {
-        $actual = microtime(true);
-        $this->tiempo = $actual - $this->inicio;
-    }
-
-    public function mostrar() {
-        $milisegundos = intval($this->tiempo * 1000);
-        $minutos = intdiv($milisegundos, 60000);
-        $resto = $milisegundos % 60000;
-        $segundos = intdiv($resto, 1000);
-        $resto = $resto % 1000;
-        $decimas = intdiv($resto, 100);
-        return str_pad(strval($minutos), 2, "0", STR_PAD_LEFT) . ":" .
-        str_pad(strval($segundos), 2, "0", STR_PAD_LEFT) . "." . 
-        strval($decimas);
-    }
-
-}
 ?>
 
 <body>
@@ -68,7 +38,7 @@ class Cronometro {
     <p>Estas en:
         <a href="index.html" title="Inicio">Inicio</a> >> 
         <a href="juegos.html" title="Juegos">Juegos</a> >>
-        <strong> Juego del cronómetro </strong>
+        <strong> Cronómetro </strong>
     </p>
     <main>
 
@@ -86,11 +56,9 @@ class Cronometro {
         }
 
         if (count($_POST) > 0) {   
-            if(isset($_POST['Arrancar']))$_SESSION['cronometro']->arrancar();
-            if(isset($_POST['Parar'])) $_SESSION['cronometro']->parar();
-            if(isset($_POST['Mostrar'])) {
-                echo "<p>" . $_SESSION['cronometro']->mostrar() . "</p>";
-            }
+            if (isset($_POST['Arrancar'])) $_SESSION['cronometro']->arrancar();
+            if (isset($_POST['Parar'])) $_SESSION['cronometro']->parar();
+            if (isset($_POST['Mostrar'])) echo "<p>" . $_SESSION['cronometro']->mostrar() . "</p>";
         }
         ?>
         

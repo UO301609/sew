@@ -1,92 +1,47 @@
-<?php
-class Configuracion {
+<!DOCTYPE HTML>
 
-    private $servername;
-    private $username;
-    private $password;
-    private $database;
+<html lang="es">
+<head>
 
-    public function __construct() {
-        $this -> servername = "localhost";
-        $this -> username = "DBUSER2025";
-        $this -> password = "DBPSWD2025";
-        $this -> database = "UO301609_DB";
-    }
+    <meta charset="UTF-8" />
+    <title>MotoGP-Cronometro</title>
+    <meta name="author" content="Hugo Suárez Palicio" />
+    <meta name="description" content="Configuración" />
+    <meta name="keywords" content="configuración" />
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="../estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
+</head>
+<body>
 
-    public function borarrBD() {
+    <main>
 
-        $db = new mysqli($servername,$username,$password,$database);
+        <h1>Configuración</h1>
 
-        if($db->connect_error) {
-            exit ("<p>ERROR de conexión:".$db->connect_error."</p>");  
-        } else {echo "<p>Conexión establecida con " . $db->host_info . "</p>";}
-        
-        $consulta  = "DROP DATABASE agenda ;";
+        <?php 
+        include "configuracionClase.php";
+        session_start();
 
-        if($db->query($consulta))
-            echo "<p>Eliminada la base de datos 'agenda'</p>";
-        else
-            echo "<p>No se ha podido eliminar la base de datos 'agenda'. Error: " . $db->error . "</p>";
+        if(!isset( $_SESSION['configuracion'] ) ) {
+            $_SESSION['configuracion'] = new Configuracion();
+        }
 
-        $db->close();
-    }
+        if(isset($_POST['reiniciar'])){
+            $_SESSION['configuracion']->reiniciarBD();
+        }elseif (isset($_POST['exportar'])){
+            $_SESSION['configuracion']->exportarCSV();
+        }elseif (isset($_POST['eliminar'])){
+            $_SESSION['configuracion']->eliminarTablas();
+        }
+        ?>
 
-    public function eliminarTablas() {
+        <form action='#' method='post'>
+            <input type="submit" name="reiniciar" value="Reiniciar BD">
+            <input type="submit" name="exportar" value="Exportar BD a .csv">
+            <input type="submit" name="eliminar" value="Borrar BD">
+        </form>
+    </main>
 
-        $db = new mysqli($servername,$username,$password,$database);
-
-        if($db->connect_error) {
-            exit ("<p>ERROR de conexión:".$db->connect_error."</p>");  
-        } else {echo "<p>Conexión establecida con " . $db->host_info . "</p>";}
-        
-        $consulta  = "
-            DROP TABLE IF EXISTS comentario_usuario;
-            DROP TABLE IF EXISTS propuesta_usuario;
-            DROP TABLE IF EXISTS respuesta_usuario;
-            DROP TABLE IF EXISTS comentario_facilitador;
-            DROP TABLE IF EXISTS resultado_test;
-            DROP TABLE IF EXISTS usuario;
-        ";
-
-        if($db->query($consulta))
-            echo "<p>Eliminadas las tablas de la BD</p>";
-        else
-            echo "<p>No se ha podido eliminar la base de datos 'agenda'. Error: " . $db->error . "</p>";
-
-        $db->close();
-
-    }
-
-    public function reiniciarBD() {
-
-        $db = new mysqli($servername,$username,$password,$database);
-
-        if($db->connect_error) {
-            exit ("<p>ERROR de conexión:".$db->connect_error."</p>");  
-        } else {echo "<p>Conexión establecida con " . $db->host_info . "</p>";}
-        
-        $consulta  = "
-            TRUNCATE TABLE comentario_facilitador;
-            TRUNCATE TABLE comentario_usuario;
-            TRUNCATE TABLE propuesta_usuario;
-            TRUNCATE TABLE respuesta_usuario;
-            TRUNCATE TABLE resultado_test;
-            TRUNCATE TABLE usuario;
-        ";
-
-        if($db->query($consulta))
-            echo "<p>Vaciadas las tablas de la BD</p>";
-        else
-            echo "<p>No se ha podido eliminar la base de datos 'agenda'. Error: " . $db->error . "</p>";
-
-        $db->close();
-
-    }
-
-    public function exportarCSV() {
-
-    }
-
-
-}
-?>
+</body>
+</html>

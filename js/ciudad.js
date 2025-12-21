@@ -26,7 +26,15 @@ class Ciudad {
     }
 
     getInformacionSecundaria(){
-        return [this.#gentilicio, this.#poblacion]
+        let ref = ["Gentilicio: " + this.#gentilicio, 
+            "Nº habitantes: " + this.#poblacion]
+        let lista = document.createElement("ul")
+        for(let contador = 0; contador <= 1; contador++){
+            let elemento_lista = document.createElement("li")
+            elemento_lista.innerHTML = ref[contador]
+            lista.appendChild(elemento_lista)
+        }
+        return lista
     }
 
     escribirCoordenadas(){
@@ -101,31 +109,61 @@ class Ciudad {
 
     #rellenarLista(comienzo, data) {
         let horas = $("<ul></ul>")
+
+        let sumTemp = 0
+        let sumLluvia = 0
+        let sumHumedad = 0
+        let sumViento = 0
+
         for(let indice = comienzo; indice < comienzo + 24; indice++) {
             let hora = data.hourly.time[indice].split("T")[1]
             let lluvia = data.hourly.rain[indice]
             let humedad = data.hourly.relative_humidity_2m[indice]
             let temperatura = data.hourly.temperature_2m[indice]
             let velocidad_viento = data.hourly.wind_speed_10m[indice]
+
+            sumTemp += temperatura
+            sumLluvia += lluvia
+            sumHumedad += humedad
+            sumViento += velocidad_viento
+
             let contenido = $("<li></li>").text(`${hora} : Temperatura = ${temperatura}, ` + 
                 `Lluvia = ${lluvia}, Humedad = ${humedad}, Velocidad del viento = ${velocidad_viento}`)
             horas.append(contenido)
         }
-        return horas
+
+        let medias = {
+            temperatura : (sumTemp / 24).toFixed(2),
+            lluvia : (sumLluvia / 24).toFixed(2),
+            humedad : (sumHumedad / 24).toFixed(2),
+            viento : (sumViento / 24).toFixed(2)
+        }
+
+        return { lista: horas, medias: medias }
     }
 
     #mostrarContenidoEntrenos(datos) {
         let titulo = $("<h3></h3>").text("Datos meteorológicos de los días de entrenamiento (Del 17-07-2025 al 19-07-2025)")
         $("main").append(titulo)
-        let dia = $("<h4></h4>").text("17-07-2025")
-        $("main").append(dia)
-        $("main").append(datos[0])
-        dia = $("<h4></h4>").text("18-07-2025")
-        $("main").append(dia)
-        $("main").append(datos[1])
-        dia = $("<h4></h4>").text("19-07-2025")
-        $("main").append(dia)
-        $("main").append(datos[2])
+        const fechas = ["17-07-2025", "18-07-2025", "19-07-2025"];
+
+        for (let i = 0; i < 3; i++) {
+            let dia = $("<h4></h4>").text(fechas[i]);
+            $("main").append(dia);
+
+            $("main").append(datos[i].lista);
+
+            let medias = datos[i].medias;
+            let resumen = $("<p></p>").html(
+                `<strong>Media diaria:</strong> ` +
+                `Temperatura = ${medias.temperatura} °C, ` +
+                `Lluvia = ${medias.lluvia} mm, ` +
+                `Humedad = ${medias.humedad} %, ` +
+                `Viento = ${medias.viento} km/h`
+            );
+
+            $("main").append(resumen);
+        }
     }
 
 }
@@ -138,12 +176,7 @@ let elemento = document.createElement("p")
 elemento.innerHTML = cadena
 document.querySelector("main").appendChild(elemento)
 
-let lista = document.createElement("ul")
-for(let contador = 0; contador <= 1; contador++){
-    let elemento_lista = document.createElement("li")
-    elemento_lista.innerHTML = c.getInformacionSecundaria()[contador]
-    lista.appendChild(elemento_lista)
-}
+let lista = c.getInformacionSecundaria()
 document.querySelector("main").appendChild(lista)
 
 c.escribirCoordenadas()

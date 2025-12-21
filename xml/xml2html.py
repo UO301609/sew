@@ -3,6 +3,7 @@ import os
 from html import escape
 
 class HtmlElement:
+    
     def __init__(self, tag: str, value=None, **attrs):
         self.tag = tag
         self.value = value
@@ -40,7 +41,7 @@ class HtmlDocument:
         self.head.append(HtmlElement('meta', None, name="author", content="Hugo Suárez Palicio"))
         self.head.append(HtmlElement('meta', None, name="description", content="Información sobre el circuito Automotodrom Brno"))
         self.head.append(HtmlElement('meta', None, name="keywords", content="circuito.MotoGP"))
-        self.head.append(HtmlElement('meta', None, name="viewport", content="width=device-width, inicial-sacle=1.0"))
+        self.head.append(HtmlElement('meta', None, name="viewport", content="width=device-width, inicial-scale=1.0"))
         self.head.append(HtmlElement('link', None, rel="stylesheet", type="text/css", href="estilo/estilo.css"))
         self.head.append(HtmlElement('link', None, rel="stylesheet", type="text/css", href="estilo/layout.css"))
         self.head.append(HtmlElement('link', None, rel="icon", href="multimedia/favicon.ico"))

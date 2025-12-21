@@ -47,8 +47,8 @@
         <sector>
             <distancia unidades="metros">238.84</distancia>
             <final>
-                <longitud unidades="grados">16.448E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.44806</longitud>
+                <latitud unidades="grados">49.20194</latitud>
                 <altitud unidades="metros">440.03</altitud>
             </final>
             <numero>1</numero>
@@ -56,8 +56,8 @@
         <sector>
             <distancia unidades="metros">77</distancia>
             <final>
-                <longitud unidades="grados">16.449E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.44917</longitud>
+                <latitud unidades="grados">49.20194</latitud>
                 <altitud unidades="metros">440.53</altitud>
             </final>
             <numero>2</numero>
@@ -65,8 +65,8 @@
         <sector>
             <distancia unidades="metros">59.38</distancia>
             <final>
-                <longitud unidades="grados">16.45E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.44972</longitud>
+                <latitud unidades="grados">49.20194</latitud>
                 <altitud unidades="metros">439.55</altitud>
             </final>
             <numero>3</numero>
@@ -74,8 +74,8 @@
         <sector>
             <distancia unidades="metros">90.88</distancia>
             <final>
-                <longitud unidades="grados">16.45E</longitud>
-                <latitud unidades="grados">49.203N</latitud>
+                <longitud unidades="grados">16.45000</longitud>
+                <latitud unidades="grados">49.20222</latitud>
                 <altitud unidades="metros">437</altitud>
             </final>
             <numero>4</numero>
@@ -83,317 +83,425 @@
         <sector>
             <distancia unidades="metros">52.4</distancia>
             <final>
-                <longitud unidades="grados">16.451E</longitud>
-                <latitud unidades="grados">49.203N</latitud>
+                <longitud unidades="grados">16.45028</longitud>
+                <latitud unidades="grados">49.20306</latitud>
                 <altitud unidades="metros">435.94</altitud>
             </final>
             <numero>5</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">577.18</distancia>
+            <distancia unidades="metros">41</distancia>
             <final>
-                <longitud unidades="grados">16.458E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.45056</longitud>
+                <latitud unidades="grados">49.20333</latitud>
                 <altitud unidades="metros">397.07</altitud>
             </final>
             <numero>6</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">51.47</distancia>
+            <distancia unidades="metros">40.4</distancia>
             <final>
-                <longitud unidades="grados">16.459E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.45111</longitud>
+                <latitud unidades="grados">49.20333</latitud>
                 <altitud unidades="metros">393.68</altitud>
             </final>
             <numero>7</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">84.4</distancia>
+            <distancia unidades="metros">537.5</distancia>
             <final>
-                <longitud unidades="grados">16.459E</longitud>
-                <latitud unidades="grados">49.203N</latitud>
+                <longitud unidades="grados">16.45806</longitud>
+                <latitud unidades="grados">49.20167</latitud>
                 <altitud unidades="metros">386.88</altitud>
             </final>
             <numero>8</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">54.28</distancia>
+            <distancia unidades="metros">19.1</distancia>
             <final>
-                <longitud unidades="grados">16.46E</longitud>
-                <latitud unidades="grados">49.203N</latitud>
+                <longitud unidades="grados">16.45833</longitud>
+                <latitud unidades="grados">49.20167</latitud>
                 <altitud unidades="metros">383.83</altitud>
             </final>
             <numero>9</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">275.77</distancia>
+            <distancia unidades="metros">35.9</distancia>
             <final>
-                <longitud unidades="grados">16.463E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.45861</longitud>
+                <latitud unidades="grados">49.20194</latitud>
                 <altitud unidades="metros">378.64</altitud>
             </final>
             <numero>10</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">57.61</distancia>
+            <distancia unidades="metros">74</distancia>
             <final>
-                <longitud unidades="grados">16.464E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.45917</longitud>
+                <latitud unidades="grados">49.20250</latitud>
                 <altitud unidades="metros">381.49</altitud>
             </final>
             <numero>11</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">57.84</distancia>
+            <distancia unidades="metros">47</distancia>
             <final>
-                <longitud unidades="grados">16.464E</longitud>
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.45972</longitud>
+                <latitud unidades="grados">49.20278</latitud>
                 <altitud unidades="metros">384.4</altitud>
             </final>
             <numero>12</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">49.04</distancia>
+            <distancia unidades="metros">20</distancia>
             <final>
-                <longitud unidades="grados">16.464E</longitud>
-                <latitud unidades="grados">49.203N</latitud>
+                <longitud unidades="grados">16.46000</longitud>
+                <latitud unidades="grados">49.20278</latitud>
                 <altitud unidades="metros">386.35</altitud>
             </final>
             <numero>13</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">533.95</distancia>
+            <distancia unidades="metros">257</distancia>
             <final>
-                <longitud unidades="grados">16.46E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.46306</longitud>
+                <latitud unidades="grados">49.20167</latitud>
                 <altitud unidades="metros">407.24</altitud>
             </final>
             <numero>14</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">59.95</distancia>
+            <distancia unidades="metros">59</distancia>
             <final>
-                <longitud unidades="grados">16.459E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.46389</longitud>
+                <latitud unidades="grados">49.20167</latitud>
                 <altitud unidades="metros">409.41</altitud>
             </final>
             <numero>15</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">55.1</distancia>
+            <distancia unidades="metros">21.1</distancia>
             <final>
-                <longitud unidades="grados">16.459E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.46417</longitud>
+                <latitud unidades="grados">49.20167</latitud>
                 <altitud unidades="metros">410</altitud>
             </final>
             <numero>16</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">66.85</distancia>
+            <distancia unidades="metros">36.0</distancia>
             <final>
-                <longitud unidades="grados">16.459E</longitud>
-                <latitud unidades="grados">49.205N</latitud>
+                <longitud unidades="grados">16.46444</longitud>
+                <latitud unidades="grados">49.20194</latitud>
                 <altitud unidades="metros">411.39</altitud>
             </final>
             <numero>17</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">51.56</distancia>
+            <distancia unidades="metros">31</distancia>
             <final>
-                <longitud unidades="grados">16.458E</longitud>
-                <latitud unidades="grados">49.205N</latitud>
+                <longitud unidades="grados">16.46444</longitud>
+                <latitud unidades="grados">49.20222</latitud>
                 <altitud unidades="metros">412.39</altitud>
             </final>
             <numero>18</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">223.88</distancia>
+            <distancia unidades="metros">577.2</distancia>
             <final>
-                <longitud unidades="grados">16.455E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.46000</longitud>
+                <latitud unidades="grados">49.20639</latitud>
                 <altitud unidades="metros">417.73</altitud>
             </final>
             <numero>19</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">34.54</distancia>
+            <distancia unidades="metros">35.7</distancia>
             <final>
-                <longitud unidades="grados">16.455E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.45972</longitud>
+                <latitud unidades="grados">49.20667</latitud>
                 <altitud unidades="metros">418.56</altitud>
             </final>
             <numero>20</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">51.73</distancia>
+            <distancia unidades="metros">39.2</distancia>
             <final>
-                <longitud unidades="grados">16.455E</longitud>
-                <latitud unidades="grados">49.207N</latitud>
+                <longitud unidades="grados">16.45917</longitud>
+                <latitud unidades="grados">49.20667</latitud>
                 <altitud unidades="metros">419.35</altitud>
             </final>
             <numero>21</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">55.84</distancia>
+            <distancia unidades="metros">39.1</distancia>
             <final>
-                <longitud unidades="grados">16.456E</longitud>
-                <latitud unidades="grados">49.207N</latitud>
+                <longitud unidades="grados">16.45889</longitud>
+                <latitud unidades="grados">49.20639</latitud>
                 <altitud unidades="metros">420.57</altitud>
             </final>
             <numero>22</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">97.86</distancia>
+            <distancia unidades="metros">96.0</distancia>
             <final>
-                <longitud unidades="grados">16.457E</longitud>
-                <latitud unidades="grados">49.207N</latitud>
+                <longitud unidades="grados">16.45861</longitud>
+                <latitud unidades="grados">49.20556</latitud>
                 <altitud unidades="metros">422.87</altitud>
             </final>
             <numero>23</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">44.17</distancia>
+            <distancia unidades="metros">38.6</distancia>
             <final>
-                <longitud unidades="grados">16.457E</longitud>
-                <latitud unidades="grados">49.207N</latitud>
+                <longitud unidades="grados">16.45806</longitud>
+                <latitud unidades="grados">49.20556</latitud>
                 <altitud unidades="metros">424.47</altitud>
             </final>
             <numero>24</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">112.98</distancia>
+            <distancia unidades="metros">20.8</distancia>
             <final>
-                <longitud unidades="grados">16.457E</longitud>
-                <latitud unidades="grados">49.209N</latitud>
+                <longitud unidades="grados">16.45778</longitud>
+                <latitud unidades="grados">49.20556</latitud>
                 <altitud unidades="metros">426.72</altitud>
             </final>
             <numero>25</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">63.89</distancia>
+            <distancia unidades="metros">203.9</distancia>
             <final>
-                <longitud unidades="grados">16.457E</longitud>
-                <latitud unidades="grados">49.209N</latitud>
+                <longitud unidades="grados">16.45528</longitud>
+                <latitud unidades="grados">49.20639</latitud>
                 <altitud unidades="metros">428.81</altitud>
             </final>
             <numero>26</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">63.89</distancia>
+            <distancia unidades="metros">32.1</distancia>
             <final>
-                <longitud unidades="grados">16.457E</longitud>
-                <latitud unidades="grados">49.209N</latitud>
+                <longitud unidades="grados">16.45500</longitud>
+                <latitud unidades="grados">49.20667</latitud>
                 <altitud unidades="metros">428.81</altitud>
             </final>
             <numero>27</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">501.85</distancia>
+            <distancia unidades="metros">30.0</distancia>
             <final>
-                <longitud unidades="grados">16.45E</longitud>
-                <latitud unidades="grados">49.208N</latitud>
+                <longitud unidades="grados">16.45500</longitud>
+                <latitud unidades="grados">49.20694</latitud>
                 <altitud unidades="metros">449.55</altitud>
             </final>
             <numero>28</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">63.78</distancia>
+            <distancia unidades="metros">31.1</distancia>
             <final>
-                <longitud unidades="grados">16.45E</longitud>
-                <latitud unidades="grados">49.208N</latitud>
+                <longitud unidades="grados">16.45500</longitud>
+                <latitud unidades="grados">49.20722</latitud>
                 <altitud unidades="metros">449.17</altitud>
             </final>
             <numero>29</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">152.92</distancia>
+            <distancia unidades="metros">20.0</distancia>
             <final>
-                <longitud unidades="grados">16.451E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.45528</longitud>
+                <latitud unidades="grados">49.20722</latitud>
                 <altitud unidades="metros">448.94</altitud>
             </final>
             <numero>30</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">62.24</distancia>
+            <distancia unidades="metros">124.3</distancia>
             <final>
-                <longitud unidades="grados">16.45E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.45694</longitud>
+                <latitud unidades="grados">49.20750</latitud>
                 <altitud unidades="metros">449.19</altitud>
             </final>
             <numero>31</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">567.77</distancia>
+            <distancia unidades="metros">40.1</distancia>
             <final>
-                <longitud unidades="grados">16.442E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.45750</longitud>
+                <latitud unidades="grados">49.20750</latitud>
                 <altitud unidades="metros">438.47</altitud>
             </final>
             <numero>32</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">148.47</distancia>
+            <distancia unidades="metros">115.3</distancia>
             <final>
-                <longitud unidades="grados">16.441E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.45778</longitud>
+                <latitud unidades="grados">49.20861</latitud>
                 <altitud unidades="metros">435.75</altitud>
             </final>
             <numero>33</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">79.5</distancia>
+            <distancia unidades="metros">39.5</distancia>
             <final>
-                <longitud unidades="grados">16.439E</longitud>
-                <latitud unidades="grados">49.206N</latitud>
+                <longitud unidades="grados">16.45750</longitud>
+                <latitud unidades="grados">49.20889</latitud>
                 <altitud unidades="metros">435.89</altitud>
             </final>
             <numero>34</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">77.97</distancia>
+            <distancia unidades="metros">47.5</distancia>
             <final>
-                <longitud unidades="grados">16.439E</longitud>
-                <latitud unidades="grados">49.205N</latitud>
+                <longitud unidades="grados">16.45694</longitud>
+                <latitud unidades="grados">49.20917</latitud>
                 <altitud unidades="metros">436.71</altitud>
             </final>
             <numero>35</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">65.53</distancia>
+            <distancia unidades="metros">493.7</distancia>
             <final>
-                <longitud unidades="grados">16.439E</longitud>
-                <latitud unidades="grados">49.204N</latitud>
+                <longitud unidades="grados">16.45028</longitud>
+                <latitud unidades="grados">49.20806</latitud>
                 <altitud unidades="metros">437.36</altitud>
             </final>
             <numero>36</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">67.51</distancia>
+            <distancia unidades="metros">19.8</distancia>
             <final>
-                <longitud unidades="grados">16.44E</longitud>
-                <latitud unidades="grados">49.204N</latitud>
+                <longitud unidades="grados">16.45000</longitud>
+                <latitud unidades="grados">49.20806</latitud>
                 <altitud unidades="metros">437.16</altitud>
             </final>
             <numero>37</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">67.51</distancia>
+            <distancia unidades="metros">62.3</distancia>
             <final>
-                <longitud unidades="grados">16.44E</longitud>
-                <latitud unidades="grados">49.204N</latitud>
+                <longitud unidades="grados">16.45000</longitud>
+                <latitud unidades="grados">49.20750</latitud>
                 <altitud unidades="metros">437.16</altitud>
             </final>
             <numero>38</numero>
         </sector>
         <sector>
-            <distancia unidades="metros">413.86</distancia>
+            <distancia unidades="metros">131.5</distancia>
             <final>
-                <longitud unidades="grados">16.446E</longitud>        
-                <latitud unidades="grados">49.202N</latitud>
+                <longitud unidades="grados">16.45056</longitud>        
+                <latitud unidades="grados">49.20639</latitud>
                 <altitud unidades="metros">440</altitud>
             </final>
             <numero>39</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">31.1</distancia>
+            <final>
+                <longitud unidades="grados">16.45056</longitud>        
+                <latitud unidades="grados">49.20611</latitud>
+                <altitud unidades="metros">440.1</altitud>
+            </final>
+            <numero>40</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">36.1</distancia>
+            <final>
+                <longitud unidades="grados">16.45028</longitud>        
+                <latitud unidades="grados">49.20583</latitud>
+                <altitud unidades="metros">440.4</altitud>
+            </final>
+            <numero>41</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">567.4</distancia>
+            <final>
+                <longitud unidades="grados">16.44250</longitud>        
+                <latitud unidades="grados">49.20556</latitud>
+                <altitud unidades="metros">440.6</altitud>
+            </final>
+            <numero>42</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">62.7</distancia>
+            <final>
+                <longitud unidades="grados">16.44167</longitud>        
+                <latitud unidades="grados">49.20583</latitud>
+                <altitud unidades="metros">440.9</altitud>
+            </final>
+            <numero>43</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">80.4</distancia>
+            <final>
+                <longitud unidades="grados">16.44056</longitud>        
+                <latitud unidades="grados">49.20611</latitud>
+                <altitud unidades="metros">441.1</altitud>
+            </final>
+            <numero>44</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">44</distancia>
+            <final>
+                <longitud unidades="grados">16.44000</longitud>        
+                <latitud unidades="grados">49.20583</latitud>
+                <altitud unidades="metros">441.3</altitud>
+            </final>
+            <numero>45</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">41.4</distancia>
+            <final>
+                <longitud unidades="grados">16.43944</longitud>        
+                <latitud unidades="grados">49.20583</latitud>
+                <altitud unidades="metros">441</altitud>
+            </final>
+            <numero>46</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">36.0</distancia>
+            <final>
+                <longitud unidades="grados">16.43917</longitud>        
+                <latitud unidades="grados">49.20556</latitud>
+                <altitud unidades="metros">440.6</altitud>
+            </final>
+            <numero>47</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">62.1</distancia>
+            <final>
+                <longitud unidades="grados">16.43917</longitud>        
+                <latitud unidades="grados">49.20500</latitud>
+                <altitud unidades="metros">440.1</altitud>
+            </final>
+            <numero>48</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">62.2</distancia>
+            <final>
+                <longitud unidades="grados">16.43917</longitud>        
+                <latitud unidades="grados">49.20444</latitud>
+                <altitud unidades="metros">439.7</altitud>
+            </final>
+            <numero>49</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">43.6</distancia>
+            <final>
+                <longitud unidades="grados">16.43972</longitud>        
+                <latitud unidades="grados">49.20417</latitud>
+                <altitud unidades="metros">439.8</altitud>
+            </final>
+            <numero>50</numero>
+        </sector>
+        <sector>
+            <distancia unidades="metros">430.5</distancia>
+            <final>
+                <longitud unidades="grados">16.44528</longitud>        
+                <latitud unidades="grados">49.20278</latitud>
+                <altitud unidades="metros">440</altitud>
+            </final>
+            <numero>51</numero>
         </sector>
     </sectores>
 

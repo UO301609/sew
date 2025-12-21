@@ -17,7 +17,7 @@ class Memoria{
         let cartas = document.querySelectorAll("main article")
         for(let indice = 0; indice < cartas.length; indice++){
             cartas[indice].addEventListener("click", () => {
-                this.voltearCarta(cartas[indice]);
+                this.#voltearCarta(cartas[indice]);
             });        
         }
     }
@@ -32,7 +32,7 @@ class Memoria{
         }
     }
 
-    voltearCarta(carta){
+    #voltearCarta(carta){
         if(carta.dataset.estado != "revelada" && carta.dataset.estado != "volteado" && !this.#tablero_bloqueado){
             carta.dataset.estado = "volteada"
             if(this.#primera_carta == null){

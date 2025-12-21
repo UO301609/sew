@@ -1,4 +1,4 @@
-/* MotoGP-Desktop*/
+/* Datos personales: Hugo Suárez Palicio UO301609 */
 /* Hoja de estilo para el juego de memoria con cartas */
 
 /* Regla con el estilo general para las tarjetas del juego */
@@ -51,6 +51,7 @@ article img {
 
 @media (min-width: 320px) and (max-width: 524.9px) {
 
+    /* especificidad: 002 */
     main article {
         width: 8em;
         height: 8em;
@@ -60,6 +61,7 @@ article img {
 
 @media (min-width: 525px) and (max-width: 799px) {
 
+    /* especificidad: 002 */
     main article {
         width: 15em;
         height: 15em;
