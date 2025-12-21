@@ -104,9 +104,10 @@ article {
     }
 
 	a {
-		max-width : 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 	}
-
+	
     nav {
         padding-bottom: 0.5rem;
     }
@@ -139,6 +140,7 @@ article {
     }
 
 }
+
 
 
 
