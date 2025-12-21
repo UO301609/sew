@@ -103,6 +103,10 @@ article {
         flex-direction: column;
     }
 
+	a {
+		max-width : 100%;
+	}
+
     nav {
         padding-bottom: 0.5rem;
     }
@@ -135,5 +139,6 @@ article {
     }
 
 }
+
 
 
