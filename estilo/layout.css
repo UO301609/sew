@@ -75,10 +75,12 @@ nav a{
 /* Especificidad = 002 */
 section > a {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /*Especificidad = 001*/
-article {
+article , input{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +104,8 @@ article {
     header, h1, nav, nav a{
         flex-direction: column;
     }
-	
+
+    /*Especificidad = 001 */
     nav {
         padding-bottom: 0.5rem;
     }
@@ -130,14 +133,9 @@ article {
         height: auto;
     }
 
+    /*Especificidad = 100*/
     #mapa {
         height: 350px; 
     }
 
 }
-
-
-
-
-
-

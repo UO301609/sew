@@ -225,13 +225,13 @@ def main():
     [
         {"type": "reference", 
          "href": f"{referencia[0].text}",
-         "text": f"{referencia[0].text}"},
+         "text": f"wikipedia.org"},
          {"type": "reference", 
          "href": f"{referencia[1].text}",
-         "text": f"{referencia[1].text}"},
+         "text": f"rtve.deportes"},
          {"type": "reference", 
          "href": f"{referencia[2].text}",
-         "text": f"{referencia[2].text}"}
+         "text": f"flashcore.motociclismo"}
     ], 3)
 
     HTML.write("InfoCircuito.html")
