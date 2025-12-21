@@ -138,12 +138,5 @@ article , input{
         height: 350px; 
     }
 
-    input[type="file"] {
-        max-width: 100%;
-        box-sizing: border-box;
-        display: block;
-        white-space: normal;
-        overflow-wrap: break-word;
-    }
-
 }
+
