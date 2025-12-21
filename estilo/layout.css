@@ -102,10 +102,6 @@ article {
     header, h1, nav, nav a{
         flex-direction: column;
     }
-
-	a {
-    	overflow-x: hidden;
-	}
 	
     nav {
         padding-bottom: 0.5rem;
@@ -139,6 +135,7 @@ article {
     }
 
 }
+
 
 
 
