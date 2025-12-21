@@ -73,7 +73,7 @@ nav a{
 }
 
 /* Especificidad = 002 */
-section > a , input{
+section > a {
     display: flex;
 }
 
@@ -93,13 +93,17 @@ article {
     visibility: visible;
 }
 
+input {
+	max-width: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 799px) {
 
     /* Especificidad = 001
     Especificidad = 001
     Especificidad = 001
     Especificidad = 002 */
-    header, h1, nav, nav a, input{
+    header, h1, nav, nav a{
         flex-direction: column;
     }
 
