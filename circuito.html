@@ -36,9 +36,12 @@
     
     <main>
         <h1>Brno Automotodrom</h1>
-        <p>Introduce el documento infoCircuito.html: <input type="file"/></p>
-        <p>Introduce el documento altimetria.svg: <input type="file"/></p>
-        <p>Introduce el documento circuito.kml: <input type="file"/></p>
+        <label for="infoCircuito">Introduce el documento infoCircuito.html: </label>
+        <input type="file" id="infoCircuito" name="infoCircuito">
+        <label for="altimetria">Introduce el documento altimetria.svg: </label>
+        <input type="file" id="altimetria" name="altimetria">
+        <label for="recorridoCircuito">Introduce el documento circuito.kml: </label>
+        <input type="file" id="recorridoCircuito" name="recorridoCircuito">
         <div id="mapa"></div>
     </main>
     <script src="js/circuito.js"></script>
