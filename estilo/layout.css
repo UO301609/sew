@@ -138,5 +138,10 @@ article , input{
         height: 350px; 
     }
 
+	input[type="file"]{
+		font-size : 1em;
+	}
+
 }
+
 
