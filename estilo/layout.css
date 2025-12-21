@@ -104,8 +104,7 @@ article {
     }
 
 	a {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    	overflow-x: hidden;
 	}
 	
     nav {
@@ -140,6 +139,7 @@ article {
     }
 
 }
+
 
 
 
