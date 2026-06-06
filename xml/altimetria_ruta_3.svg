@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <rect x="0" y="0" width="1000" height="400" fill="white" stroke="none" />
+  <polyline points="60.0,320 60.0,159.46 68.15,137.57 74.56,108.38 83.75,86.49 93.03,71.89 105.25,64.59 119.39,50.0 127.1,50.0 138.46,50.0 150.42,50.0 190.65,57.3 230.09,64.59 253.76,71.89 332.22,79.19 365.68,79.19 459.05,86.49 475.09,86.49 485.67,86.49 496.33,79.19 523.38,71.89 565.77,71.89 677.87,57.3 715.15,57.3 719.39,50.0 720.78,57.3 736.13,57.3 741.15,57.3 747.66,64.59 766.21,79.19 783.46,101.08 798.89,115.68 857.84,152.16 868.77,181.35 881.51,217.84 944.45,268.92 950.0,320.0 950.0,320" stroke="green" fill="rgba(0,128,0,0.2)" />
+  <line x1="60" y1="50" x2="60" y2="320" stroke="black" />
+  <line x1="60" y1="320" x2="950" y2="320" stroke="black" />
+  <line x1="55" y1="320.0" x2="65" y2="320.0" stroke="black" />
+  <text x="10" y="325.0" style="font-size:10px;fill:black">743 m</text>
+  <line x1="55" y1="266.0" x2="65" y2="266.0" stroke="black" />
+  <text x="10" y="271.0" style="font-size:10px;fill:black">750 m</text>
+  <line x1="55" y1="212.0" x2="65" y2="212.0" stroke="black" />
+  <text x="10" y="217.0" style="font-size:10px;fill:black">758 m</text>
+  <line x1="55" y1="158.0" x2="65" y2="158.0" stroke="black" />
+  <text x="10" y="163.0" style="font-size:10px;fill:black">765 m</text>
+  <line x1="55" y1="104.0" x2="65" y2="104.0" stroke="black" />
+  <text x="10" y="109.0" style="font-size:10px;fill:black">773 m</text>
+  <line x1="55" y1="50.0" x2="65" y2="50.0" stroke="black" />
+  <text x="10" y="55.0" style="font-size:10px;fill:black">780 m</text>
+  <line x1="60.0" y1="315" x2="60.0" y2="325" stroke="black" />
+  <text x="50.0" y="340" style="font-size:10px;fill:black">0 m</text>
+  <line x1="233.39" y1="315" x2="233.39" y2="325" stroke="black" />
+  <text x="223.39" y="340" style="font-size:10px;fill:black">2000 m</text>
+  <line x1="406.78" y1="315" x2="406.78" y2="325" stroke="black" />
+  <text x="396.78" y="340" style="font-size:10px;fill:black">4000 m</text>
+  <line x1="580.16" y1="315" x2="580.16" y2="325" stroke="black" />
+  <text x="570.16" y="340" style="font-size:10px;fill:black">6000 m</text>
+  <line x1="753.55" y1="315" x2="753.55" y2="325" stroke="black" />
+  <text x="743.55" y="340" style="font-size:10px;fill:black">8000 m</text>
+  <line x1="926.94" y1="315" x2="926.94" y2="325" stroke="black" />
+  <text x="916.94" y="340" style="font-size:10px;fill:black">10000 m</text>
+  <text x="446" y="25" style="font-size:13px;fill:black;font-weight:bold">Senda del Ventanón</text>
+  <line x1="83.75" y1="71.49" x2="83.75" y2="86.49" stroke="black" />
+  <text x="25.75" y="38.489999999999995" style="font-size:9px;fill:black">Complejo kárstico Ojo Guareña</text>
+  <line x1="485.67" y1="71.49" x2="485.67" y2="86.49" stroke="black" />
+  <text x="463.67" y="58.489999999999995" style="font-size:9px;fill:black">El Ventanón</text>
+  <line x1="736.13" y1="42.3" x2="736.13" y2="57.3" stroke="black" />
+  <text x="634.13" y="29.299999999999997" style="font-size:9px;fill:black">Iglesia de San Esteban de Villamartín de Sotoscueva</text>
+  <line x1="950.0" y1="305.0" x2="950.0" y2="320.0" stroke="black" />
+  <text x="912.0" y="292.0" style="font-size:9px;fill:black">Pico El Cuerno</text>
+  <line x1="55" y1="159.46" x2="65" y2="159.46" stroke="black" />
+  <text x="70" y="163.46" style="font-size:9px;fill:black">Ermita de San Bernabé</text>
+</svg>

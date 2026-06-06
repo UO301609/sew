@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Ermita de San Jorge</name>
+      <description>
+                    Ubicada en una posición privilegiada, la ermita es un punto destacado para el senderismo y la fotografía, ofreciendo vistas que se extienden hasta la sierra de Atapuerca y los viñedos de la zona. 
+                    Es considerada una de las principales atracciones del municipio, destacando por su arquitectura sencilla y su entorno tranquilo, ideal para disfrutar de la naturaleza y la historia local.
+                </description>
+      <Point>
+        <coordinates>-3.822924900934569,41.77709041929234,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ermita de San Isidro</name>
+      <description>
+                    Construida entre los siglos XVII y XVIII gracias al auge económico de la villa durante el reinado de Carlos III. 
+                    Ubicada al sur del término municipal junto al arroyo de Sotillo, la ermita se asienta en un pequeño cerro rodeada de almendros, ofreciendo una panorámica característica del paisaje ribereño.
+                </description>
+      <Point>
+        <coordinates>-3.840636822631505,41.76336729444583,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ermita de Santa Lucía</name>
+      <description>
+                    Lugar de culto y punto de interés para destacado para el senderismo y el turismo cultural en la zona.
+                </description>
+      <Point>
+        <coordinates>-3.831538559923575,41.77875558890384,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ermita de San Amancio</name>
+      <description>
+                    Construida entre los siglos XVII y XVIII, durante el auge económico de la localidad gracias al comercio del vino bajo el reinado de Carlos III.
+                    Se encuentra en un pequeño bosquete de pinos, ubicada estratégicamente en el interior de la cruz formada por los otros cuatro templos que forman parte de la ruta. 
+                </description>
+      <Point>
+        <coordinates>-3.834073264624505,41.78100608268738,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ermita de Nuestra Señora de los Prados</name>
+      <description>
+                    Su enclave, rodeado de pinares y praderas, constituyen un entorno estupendo para celebrar la romería de la Virgen.
+                </description>
+      <Point>
+        <coordinates>-3.815110086237908,41.79163115598715,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Ruta de las Ermitas</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>
+-3.822924900934569,41.77709041929234,20.0
+-3.823865572315588,41.77665671518214,20.0
+-3.824447067090539,41.77619287362832,20.0
+-3.825516602662216,41.77644194387533,20.0
+-3.825714887117512,41.77544500097246,20.0
+-3.825979447388252,41.77533279942536,20.0
+-3.826574046073301,41.77534567996856,20.0
+-3.827566302103862,41.77384193844888,20.0
+-3.828684797073265,41.77273345873541,20.0
+-3.830478316426038,41.77194351347693,20.0
+-3.832689874258823,41.7703179986547,20.0
+-3.833981568172393,41.76874392264552,20.0
+-3.834724749216998,41.76826572378202,20.0
+-3.837277193590098,41.76727105772849,20.0
+-3.840619634886387,41.76425062271154,20.0
+-3.840636822631505,41.76336729444583,20.0
+-3.840627307678709,41.76425756650123,20.0
+-3.839524662477314,41.7652843764548,20.0
+-3.841279507867255,41.76525841497521,20.0
+-3.842218497281308,41.76711252316848,20.0
+-3.8421387559253,41.76757154444367,20.0
+-3.842452838883931,41.76888333096684,20.0
+-3.842535906421249,41.769943999468,20.0
+-3.84372530082059,41.77128304360204,20.0
+-3.844172451783806,41.77361377144538,20.0
+-3.844729735876788,41.77412088833113,20.0
+-3.843969400533013,41.77482439008148,20.0
+-3.843365740444586,41.7751092917859,20.0
+-3.843650789072618,41.77559501320255,20.0
+-3.840950651060349,41.77894611958118,20.0
+-3.842044620331979,41.77972044015215,20.0
+-3.841933216392696,41.77987683943044,20.0
+-3.839244235296138,41.77983059369278,20.0
+-3.831676009497778,41.77862744610255,20.0
+-3.831538559923575,41.77875558890384,20.0
+-3.832621915570357,41.77876860076119,20.0
+-3.833773670339984,41.78008018021522,20.0
+-3.834073264624505,41.78100608268738,20.0
+-3.834590924864718,41.7815418035001,20.0
+-3.835077612723532,41.78259942556376,20.0
+-3.835840799569282,41.78285292922139,20.0
+-3.836442214264567,41.78403139838944,20.0
+-3.834701934673204,41.78543642357072,20.0
+-3.834626953622525,41.78761748272161,20.0
+-3.833440211555459,41.79044914726258,20.0
+-3.831649178489952,41.79248200008067,20.0
+-3.830422776490408,41.79336964008653,20.0
+-3.828371057151043,41.79418124355071,20.0
+-3.827502380625821,41.79459303860449,20.0
+-3.826570515225417,41.79488914028686,20.0
+-3.824878680817758,41.79652952868891,20.0
+-3.823380643411336,41.7977116914453,20.0
+-3.822262386218221,41.79767409751312,20.0
+-3.821487689473957,41.79757212819816,20.0
+-3.820559072394855,41.79773105268549,20.0
+-3.818538254830359,41.79853828410599,20.0
+-3.816969034278459,41.79962025949374,20.0
+-3.812750045719366,41.80047487732629,20.0
+-3.810296227631564,41.80154421279526,20.0
+-3.809672406658096,41.8019380957463,20.0
+-3.805055445331363,41.79965531813041,20.0
+-3.806026008173259,41.79873039817375,20.0
+-3.810155099905379,41.79732101295579,20.0
+-3.812164184506224,41.7955127355945,20.0
+-3.812611677037714,41.79336434456941,20.0
+-3.815110086237908,41.79163115598715,20.0
+-3.824866191841205,41.78216899744183,20.0
+-3.82522832605628,41.78010062705435,20.0
+</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>ffff0000</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>
