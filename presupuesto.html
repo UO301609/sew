@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+
+    <meta charset="UTF-8">
+    <title>Burgos-Reservas</title>
+    <meta name="author" content="Hugo Suárez Palicio">
+    <meta name="description" content="Reservas de BURGOS-DESKTOP">
+    <meta name="keywords" content="Burgos,reservas">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <link rel="icon" href="multimedia/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <a href="index.html" title="Inicio">Burgos Desktop</a>
+        </h1>
+        <nav>
+            <a href="index.html" title="Inicio">Inicio</a>
+            <a href="gastronomia.html" title="Información de la gastronomía">Gastronomía</a>
+            <a href="rutas.html" title="Información de las rutas">Rutas</a>
+            <a href="meteorologia.html" title="Información de la meteorología">Meteorología</a>
+            <a href="juego.html" title="Juego">Juego</a>
+            <a href="reservas.php" title="Infromación sobre las reservas" class="active">Reservas</a>
+            <a href="ayuda.html" title="Información de la ayuda">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estas en:
+        <a href="index.html" title="Inicio">Inicio</a> &gt;&gt; <strong>Reservas</strong>
+    </p>
+
+    <main>
+
+    
+        <h2>Menú principal</h2>
+        <form action="#" method="get">
+            <input type="hidden" name="accion" value="nueva">
+            <input type="submit" value="Nueva reserva">
+        </form>
+        <form action="#" method="get">
+            <input type="hidden" name="accion" value="misreservas">
+            <input type="submit" value="Mis reservas">
+        </form>
+        <form action="#" method="get">
+            <input type="hidden" name="logout" value="1">
+            <input type="submit" value="Cerrar sesión">
+        </form>
+
+        
+            
+                <section>
+                    <h3>Resumen del presupuesto</h3>
+                    <p>Precio unitario: 3.00 €</p>
+                    <p>Plazas: 2</p>
+                    <p>Total: 6.00 €</p>
+                    <form method="post">
+                        <input type="submit" name="confirmar" value="Confirmar">
+                        <input type="submit" name="rechazar" value="Rechazar">
+                    </form>
+                </section>
+
+            
+            
+    
+    </main>
+
+
+
+</body></html>
