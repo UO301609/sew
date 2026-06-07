@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+
+    <meta charset="UTF-8">
+    <title>Burgos-Reservas</title>
+    <meta name="author" content="Hugo Suárez Palicio">
+    <meta name="description" content="Reservas de BURGOS-DESKTOP">
+    <meta name="keywords" content="Burgos,reservas">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <link rel="icon" href="multimedia/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <a href="index.html" title="Inicio">Burgos Desktop</a>
+        </h1>
+        <nav>
+            <a href="index.html" title="Inicio">Inicio</a>
+            <a href="gastronomia.html" title="Información de la gastronomía">Gastronomía</a>
+            <a href="rutas.html" title="Información de las rutas">Rutas</a>
+            <a href="meteorologia.html" title="Información de la meteorología">Meteorología</a>
+            <a href="juego.html" title="Juego">Juego</a>
+            <a href="reservas.php" title="Infromación sobre las reservas" class="active">Reservas</a>
+            <a href="ayuda.html" title="Información de la ayuda">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estas en:
+        <a href="index.html" title="Inicio">Inicio</a> &gt;&gt; <strong>Reservas</strong>
+    </p>
+
+    <main>
+
+    
+        <h2>Menú principal</h2>
+        <form action="#" method="get">
+            <input type="hidden" name="accion" value="nueva">
+            <input type="submit" value="Nueva reserva">
+        </form>
+        <form action="#" method="get">
+            <input type="hidden" name="accion" value="misreservas">
+            <input type="submit" value="Mis reservas">
+        </form>
+        <form action="#" method="get">
+            <input type="hidden" name="logout" value="1">
+            <input type="submit" value="Cerrar sesión">
+        </form>
+
+        
+            
+                <section>
+                    <h3>Reservar recurso turístico</h3>
+                    <form method="post">
+                        <p>Recurso turístico</p>
+                        <select name="recurso">
+                                                            <option value="9">
+                                    Arco de Santa Maria                                     -                                     3.00                                    €                                </option>
+                                                            <option value="7">
+                                    Cartuja de Miraflores                                     -                                     5.00                                    €                                </option>
+                                                            <option value="4">
+                                    Castillo de Burgos                                     -                                     6.00                                    €                                </option>
+                                                            <option value="5">
+                                    Catedral de Burgos                                     -                                     7.00                                    €                                </option>
+                                                            <option value="6">
+                                    Monasterio de las Huelgas                                     -                                     5.00                                    €                                </option>
+                                                            <option value="3">
+                                    Museo de la Evolucion Humana                                     -                                     8.00                                    €                                </option>
+                                                            <option value="8">
+                                    Museo del Retablo                                     -                                     4.00                                    €                                </option>
+                                                    </select>
+                        <p>Número de plazas</p>
+                        <input type="number" name="plazas" min="1" value="1" required="">
+                        <input type="submit" name="reservar" value="Reservar">
+                    </form>
+                </section>
+
+                
+                <section>
+                    <h3>Recursos disponibles</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="nombre" scope="col">Nombre</th>
+                                <th id="descripcion" scope="col">Descripción</th>
+                                <th id="plazas" scope="col">Plazas</th>
+                                <th id="precio" scope="col">Precio</th>
+                                <th id="horario" scope="col">Horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                            <tr>
+                                    <td headers="nombre">Arco de Santa Maria</td>
+                                    <td headers="descripcion">Visita a la puerta medieval de la ciudad con exposicion permanente</td>
+                                    <td headers="plazas">30/30</td>
+                                    <td headers="precio">3.00 €</td>
+                                    <td headers="horario">2026-11-01 10h-14h</td>
+                                </tr>
+                                                            <tr>
+                                    <td headers="nombre">Cartuja de Miraflores</td>
+                                    <td headers="descripcion">Visita a la cartuja gotica con el sepulcro de Juan II de Castilla</td>
+                                    <td headers="plazas">20/20</td>
+                                    <td headers="precio">5.00 €</td>
+                                    <td headers="horario">2026-10-01 11h-13h</td>
+                                </tr>
+                                                            <tr>
+                                    <td headers="nombre">Castillo de Burgos</td>
+                                    <td headers="descripcion">Visita guiada al castillo medieval con vistas panoramicas de la ciudad</td>
+                                    <td headers="plazas">20/20</td>
+                                    <td headers="precio">6.00 €</td>
+                                    <td headers="horario">2026-08-15 11h-13h</td>
+                                </tr>
+                                                            <tr>
+                                    <td headers="nombre">Catedral de Burgos</td>
+                                    <td headers="descripcion">Visita a la Catedral gotica de Santa Maria declarada Patrimonio de la Humanidad</td>
+                                    <td headers="plazas">40/40</td>
+                                    <td headers="precio">7.00 €</td>
+                                    <td headers="horario">2026-09-01 10h-12h</td>
+                                </tr>
+                                                            <tr>
+                                    <td headers="nombre">Monasterio de las Huelgas</td>
+                                    <td headers="descripcion">Visita guiada al monasterio cisterciense fundado por Alfonso VIII</td>
+                                    <td headers="plazas">15/15</td>
+                                    <td headers="precio">5.00 €</td>
+                                    <td headers="horario">2026-09-15 10h-12h</td>
+                                </tr>
+                                                            <tr>
+                                    <td headers="nombre">Museo de la Evolucion Humana</td>
+                                    <td headers="descripcion">Recorrido por la historia de la evolucion humana y los hallazgos de Atapuerca</td>
+                                    <td headers="plazas">30/30</td>
+                                    <td headers="precio">8.00 €</td>
+                                    <td headers="horario">2026-08-01 10h-14h</td>
+                                </tr>
+                                                            <tr>
+                                    <td headers="nombre">Museo del Retablo</td>
+                                    <td headers="descripcion">Exposicion de retablos religiosos de los siglos XV al XVIII</td>
+                                    <td headers="plazas">25/25</td>
+                                    <td headers="precio">4.00 €</td>
+                                    <td headers="horario">2026-10-15 10h-13h</td>
+                                </tr>
+                                                    </tbody>
+                    </table>
+                </section>
+
+            
+            
+    
+    </main>
+
+
+
+</body></html>
