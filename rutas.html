@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Burgos-Rutas</title>
+    <meta name="author" content="Hugo Suárez Palicio" />
+    <meta name="description" content="Rutas de BURGOS-DESKTOP" />
+    <meta name="keywords" content="Burgos,rutas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
+    <!-- El siguiente script genera varios warnings en el validador html-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous">  
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <a href="index.html" title="Inicio">Burgos Desktop</a>
+        </h1>
+        <nav>
+            <a href="index.html" title="Inicio">Inicio</a>
+            <a href="gastronomia.html" title="Información de la gastronomía">Gastronomía</a>
+            <a href="rutas.html" title="Información de las rutas" class="active">Rutas</a>
+            <a href="meteorologia.html" title="Información de la meteorología">Meteorología</a>
+            <a href="juego.html" title="Juego">Juego</a>
+            <a href="reservas.php" title="Infromación sobre las reservas">Reservas</a>
+            <a href="ayuda.html" title="Información de la ayuda">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Estas en:
+        <a href="index.html" title="Inicio">Inicio</a> >> <strong>Rutas</strong>
+    </p>
+
+    <main>
+        <h2>Rutas de Burgos</h2>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+    <script src="js/rutas.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqj2Ay1ECoj49lJjrWUq0Pdaz9CrkgkmM&callback=initMap">
+    </script>
+
+</body>
+
+</html>

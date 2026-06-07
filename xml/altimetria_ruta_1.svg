@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <rect x="0" y="0" width="1000" height="400" fill="white" stroke="none" />
+  <polyline points="60.0,320 60.0,89.32 66.44,81.46 71.4,70.97 77.91,63.11 85.74,57.86 87.49,55.24 90.92,50.0 103.93,50.0 114.71,50.0 126.81,50.0 144.86,52.62 159.2,55.24 164.87,57.86 181.59,60.49 212.02,60.49 218.87,63.11 225.8,63.11 236.01,63.11 246.23,60.49 261.62,57.86 265.19,57.86 275.54,52.62 283.79,52.62 296.32,50.0 314.65,52.62 319.75,52.62 326.75,52.62 330.88,55.24 335.0,60.49 365.43,68.35 374.18,73.59 375.58,86.7 391.18,97.18 436.09,110.29 437.35,128.64 443.65,146.99 455.82,167.96 463.24,188.93 468.34,207.28 477.02,228.25 481.84,243.98 491.64,262.33 506.54,280.68 523.54,293.79 546.62,306.89 565.51,314.76 575.45,320.0 588.95,320.0 594.9,320.0 600.77,317.38 616.86,306.89 629.52,299.03 636.03,285.92 640.58,267.57 646.1,249.22 659.4,233.5 671.78,212.52 697.1,194.17 713.61,173.2 718.37,152.23 750.48,133.88 759.65,118.16 785.95,102.43 804.21,91.94 821.14,78.83 840.94,68.35 933.77,60.49 950.0,55.24 950.0,320" stroke="blue" fill="rgba(0,0,255,0.2)" />
+  <line x1="60" y1="50" x2="60" y2="320" stroke="black" />
+  <line x1="60" y1="320" x2="950" y2="320" stroke="black" />
+  <line x1="55" y1="320.0" x2="65" y2="320.0" stroke="black" />
+  <text x="10" y="325.0" style="font-size:10px;fill:black">677 m</text>
+  <line x1="55" y1="266.0" x2="65" y2="266.0" stroke="black" />
+  <text x="10" y="271.0" style="font-size:10px;fill:black">698 m</text>
+  <line x1="55" y1="212.0" x2="65" y2="212.0" stroke="black" />
+  <text x="10" y="217.0" style="font-size:10px;fill:black">718 m</text>
+  <line x1="55" y1="158.0" x2="65" y2="158.0" stroke="black" />
+  <text x="10" y="163.0" style="font-size:10px;fill:black">739 m</text>
+  <line x1="55" y1="104.0" x2="65" y2="104.0" stroke="black" />
+  <text x="10" y="109.0" style="font-size:10px;fill:black">759 m</text>
+  <line x1="55" y1="50.0" x2="65" y2="50.0" stroke="black" />
+  <text x="10" y="55.0" style="font-size:10px;fill:black">780 m</text>
+  <line x1="60.0" y1="315" x2="60.0" y2="325" stroke="black" />
+  <text x="50.0" y="340" style="font-size:10px;fill:black">0 m</text>
+  <line x1="269.87" y1="315" x2="269.87" y2="325" stroke="black" />
+  <text x="259.87" y="340" style="font-size:10px;fill:black">3000 m</text>
+  <line x1="479.75" y1="315" x2="479.75" y2="325" stroke="black" />
+  <text x="469.75" y="340" style="font-size:10px;fill:black">6000 m</text>
+  <line x1="689.62" y1="315" x2="689.62" y2="325" stroke="black" />
+  <text x="679.62" y="340" style="font-size:10px;fill:black">9000 m</text>
+  <line x1="899.49" y1="315" x2="899.49" y2="325" stroke="black" />
+  <text x="889.49" y="340" style="font-size:10px;fill:black">12000 m</text>
+  <text x="443" y="25" style="font-size:13px;fill:black;font-weight:bold">Ruta de las Ermitas</text>
+  <line x1="218.87" y1="48.11" x2="218.87" y2="63.11" stroke="black" />
+  <text x="178.87" y="35.11" style="font-size:9px;fill:black">Ermita de San Isidro</text>
+  <line x1="437.35" y1="113.63999999999999" x2="437.35" y2="128.64" stroke="black" />
+  <text x="395.35" y="100.63999999999999" style="font-size:9px;fill:black">Ermita de Santa Lucía</text>
+  <line x1="463.24" y1="173.93" x2="463.24" y2="188.93" stroke="black" />
+  <text x="421.24" y="140.93" style="font-size:9px;fill:black">Ermita de San Amancio</text>
+  <line x1="840.94" y1="53.349999999999994" x2="840.94" y2="68.35" stroke="black" />
+  <text x="719.94" y="40.349999999999994" style="font-size:9px;fill:black">Ermita de Nuestra Señora de los Prados</text>
+  <line x1="55" y1="89.32" x2="65" y2="89.32" stroke="black" />
+  <text x="70" y="93.32" style="font-size:9px;fill:black">Ermita de San Jorge</text>
+</svg>

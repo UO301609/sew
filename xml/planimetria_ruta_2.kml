@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Catedral de Burgos</name>
+      <description> La catedral de Santa María de Burgos, joya del gótico español y
+                    Patrimonio de la Humanidad, es el punto de partida de esta ruta que recorre los
+                    vestigios históricos y culturales del Cid Campeador. </description>
+      <Point>
+        <coordinates>-3.704692512772602,42.34110090695341,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arco de San Martín</name>
+      <description> Puerta fortificada de estilo mudéjar (siglos XIII-XIV) que servía como
+                    entrada real y salida de peregrinos en la muralla occidental de Burgos. </description>
+      <Point>
+        <coordinates>-3.710965433415127,42.34135502955384,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arco de Santa María</name>
+      <description> Puerta medieval emblemática sobre el puente del Arlanzón, conecta con
+                    la Plaza del Rey San Fernando. </description>
+      <Point>
+        <coordinates>-3.703648859766125,42.33964389135978,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Monumento al Cid Campeador</name>
+      <description> Imponente estatua ecuestre de bronce que rinde homenaje a Rodrigo Díaz
+                    de Vivar, símbolo de la ciudad. </description>
+      <Point>
+        <coordinates>-3.699682818460936,42.34066790417939,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Museo de la Evolución Humana</name>
+      <description> Museo de referencia internacional dedicado a la evolución humana y los
+                    yacimientos de Atapuerca. </description>
+      <Point>
+        <coordinates>-3.697256519218755,42.339559149157,20.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Ruta turística por el casco antiguo</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>
+-3.704692512772602,42.34110090695341,20.0
+-3.705430975223271,42.34053785541777,20.0
+-3.706812059910134,42.34021550608851,20.0
+-3.709297006694566,42.3410303294314,20.0
+-3.710965433415127,42.34135502955384,20.0
+-3.710878425390701,42.34072770235863,20.0
+-3.706791962867953,42.33963312949535,20.0
+-3.704188481103939,42.34011686498994,20.0
+-3.703648859766125,42.33964389135978,20.0
+-3.699682818460936,42.34066790417939,20.0
+-3.699056733119304,42.33970425296224,20.0
+-3.697256519218755,42.339559149157,20.0
+</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>
